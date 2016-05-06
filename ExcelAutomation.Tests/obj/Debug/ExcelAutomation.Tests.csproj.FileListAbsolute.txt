@@ -1,0 +1,13 @@
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\obj\Debug\ExcelAutomation.Tests.csprojResolveAssemblyReference.cache
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\ExcelAutomation.Tests.dll
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\ExcelAutomation.Tests.pdb
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\ExcelAutomation.Abstraction.dll
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\ExcelAutomationLibrary.exe
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\Fixie.dll
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\ExcelAutomation.Abstraction.pdb
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\ExcelAutomationLibrary.pdb
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\obj\Debug\ExcelAutomation.Tests.dll
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\obj\Debug\ExcelAutomation.Tests.pdb
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\Should.dll
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\DocumentFormat.OpenXml.dll
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\DocumentFormat.OpenXml.xml
