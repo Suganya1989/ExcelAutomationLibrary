@@ -11,3 +11,4 @@ c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrar
 c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\Should.dll
 c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\DocumentFormat.OpenXml.dll
 c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\DocumentFormat.OpenXml.xml
+c:\users\tcsusera115\documents\visual studio 2012\Projects\ExcelAutomationLibrary\ExcelAutomation.Tests\bin\Debug\TestFiles\ExcelFileSample 1.xlsx

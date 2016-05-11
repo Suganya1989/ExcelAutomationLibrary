@@ -1,0 +1,29 @@
+<Project DefaultTargets="Finalize" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0" >
+	<PropertyGroup>
+		<BuildDir>$(MsBuildProjectDirectory)\Build</BuildDir>
+	</PropertyGroup>
+	<ItemGroup>
+        <ProjectFiles  Include="$(MsBuildProjectDirectory\*sln"/>
+    </ItemGroup>
+	<Target Name="Clean">
+		<Message Importance="normal" Text="%(ProjectFiles.FullPath)"/>
+		<RemoveDir Condition="Exists($(BuildDir))" Directories="$(BuildDir)"></RemoveDir>
+		<MakeDir Directories="$(BuildDir)"></MakeDir>
+	</Target>
+	<Target Name="CoreBuild" DependsOnTargets="Clean">
+		<Exec Command="MSBuild @(ProjectFiles)" />
+	</Target>
+	<Target Name="MovePackages" DependsOnTargets="CoreBuild">
+		<ItemGroup>
+			<PackageFiles  Include="$(MsBuildProjectDirectory)\**\*.nupkg" Exclude="$(MsBuildProjectDirectory)\**\packages\**\*.nupkg"/>
+		</ItemGroup>
+		<Message Importance="normal" Text="%(PackageFiles.FullPath)"/>
+		<Copy SourceFiles="@(PackageFiles)" DestinationFolder="$(BuildDir)" />
+	</Target>
+	<Target  Name="PushPackages" DependsOnTargets="MovePackages">
+		<Exec Command="$(MsBuildProjectDirectory)\.nuget\NuGet.exe push $(BuildDir)\*.nupkg -apikey Admin:Admin -source http://localhost/nuget/Default" />
+	</Target>
+	<Target Name="Finalize" DependsOnTargets="PushPackages">
+		<Message Text="Build Completed" />
+	</Target>
+</Project> 
